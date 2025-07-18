@@ -1,0 +1,18 @@
+{
+  "name": "biblioteca-api",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de biblioteca com MongoDB, Node.js, Express e Mongoose",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "mongoose": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
